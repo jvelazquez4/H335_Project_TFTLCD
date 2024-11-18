@@ -1,0 +1,1 @@
+This README File contains the project documentation from our 335H Colloqium Project. We are attempting to get the Nano 33 BLE Sense Microcontroller to work with the Adafruit TFT LCD 3.5" Breakout Board.
