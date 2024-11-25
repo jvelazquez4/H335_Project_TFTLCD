@@ -21,11 +21,12 @@
 #include "pins_arduino.h"
 #include "wiring_private.h"
 
-//#define TFTWIDTH   320
-//#define TFTHEIGHT  480
 
-#define TFTWIDTH 240
-#define TFTHEIGHT 320
+#define TFTWIDTH   320
+#define TFTHEIGHT  480
+
+//#define TFTWIDTH 240
+//#define TFTHEIGHT 320
 
 // LCD controller chip identifiers
 #define ID_932X 0
@@ -405,8 +406,9 @@ void Adafruit_TFTLCD::begin(uint16_t id) {
       if (r == TFTLCD_DELAY) {
         delay(len);
       } else {
-        // Serial.print("Register $"); Serial.print(r, HEX);
-        // Serial.print(" datalen "); Serial.println(len);
+        
+        Serial.print("Register $"); Serial.print(r, HEX);
+        Serial.print(" datalen "); Serial.println(len);
 
         CS_ACTIVE;
         CD_COMMAND;

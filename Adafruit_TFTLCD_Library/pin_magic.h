@@ -55,14 +55,14 @@
 // equivalent to two NOPs each, final NOP burns the 7th cycle, and the
 // last line is a radioactive mutant emoticon.
 #define DELAY7                                                                 \
-  // asm volatile("rjmp .+0"                                                      \
-  //              "\n\t"                                                          \
-  //              "rjmp .+0"                                                      \
-  //              "\n\t"                                                          \
-  //              "rjmp .+0"                                                      \
-  //              "\n\t"                                                          \
-  //              "nop"                                                           \
-  //              "\n" ::);
+  asm volatile("nop\n\t"                                                       \
+               "nop\n\t"                                                       \
+               "nop\n\t"                                                       \
+               "nop\n\t"                                                       \
+               "nop\n\t"                                                       \
+               "nop\n\t"                                                       \
+               "nop\n\t" ::);
+
 
 #if defined(__AVR_ATmega168__) || defined(__AVR_ATmega328P__) ||               \
     defined(__AVR_ATmega328__) || defined(__AVR_ATmega8__)
