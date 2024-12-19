@@ -5,7 +5,7 @@ Some things to be noted:
 
     * The examples folder has been removed from this library.
     * Examples can be found in MAIN (functional) or in our edited TFTLCD_Library.
-      * Those in the edited TFTLCD_Library will not be functional as they are currently. Please edit them according to the notes
+    * Those in the edited TFTLCD_Library will not be functional as they are currently. Please edit them according to the notes
         in the Main READ.ME File as well as according to the examples in MAIN.
 
 This is a library for our Adafruit 16-channel PWM & Servo driver, shield or FeatherWing
