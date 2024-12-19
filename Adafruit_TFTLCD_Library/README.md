@@ -3,7 +3,7 @@
 This now includes functionality for the Arduino Nano 33 BLE Sense. Some things to be noted:
 
   * The examples included in this library will not be functional as they are currently. Please edit them according to the 
-    notes in the Main READ.ME File as well as according to the examples in MAIN.
+    notes in the Main README File as well as according to the examples in MAIN.
 
 This is a library for our Adafruit 16-channel PWM & Servo driver, shield or FeatherWing
 
