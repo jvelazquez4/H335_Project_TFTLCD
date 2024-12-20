@@ -1,4 +1,4 @@
-This README File contains the project documentation from our 335H Colloqium Project. We are attempting to get the Nano 33 BLE Sense Microcontroller to work with the Adafruit TFT LCD 3.5" Breakout Board.
+# Setting Up the Arduino Nano 33 BLE Sense with the Adafruit 3.5" 320x480 Color TFT Touchscreen Breakout (HX8357D)
 
 To wire the Arduino Nano 33 BLE Sense Microcontroller to the 8-bit mode, begin by connecting the Arduino's 3V to the power and GND to the ground. Connect the breakout board's GND to ground and Vin to  the power. If you power up the Arduino, the white backlight should turn off. If it does not, double check your wiring. 
 
