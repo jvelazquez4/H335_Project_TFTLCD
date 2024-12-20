@@ -24,3 +24,13 @@ Modifications to Examples:
   with the Adafruit TFT LCD 3.5" Breakout Board.
 * In setup(), after calling Serial.begin(9600), make sure to wait for until it has began with a statement like: while(!Serial);
 
+Wiring Photos: 
+
+![alt text](https://github.com/jvelazquez4/335/blob/main/images/Wiring1.jpg)
+![alt text](https://github.com/jvelazquez4/335/blob/main/images/Wiring2.jpg)
+![alt text](https://github.com/jvelazquez4/335/blob/main/images/Wiring3.jpg)
+![alt text](https://github.com/jvelazquez4/335/blob/main/images/Wiring4.jpg)
+![alt text](https://github.com/jvelazquez4/335/blob/main/images/Wiring5.jpg)
+![alt text](https://github.com/jvelazquez4/335/blob/main/images/20241209_104228.jpg)
+![alt text](https://github.com/jvelazquez4/335/blob/main/images/20241209_104236.jpg)
+
