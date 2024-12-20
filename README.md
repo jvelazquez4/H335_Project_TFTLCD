@@ -16,4 +16,11 @@ To connect the touchscreen:
 * X- to Arduino A3
 
 Troubleshooting:
-* If the test example is not running on the Arduino, try opening the Serial monitor. Otherwise, if there is a random collection of pixels, try replacing the Arduino. 
+* If the test example is not running on the Arduino, try opening the Serial monitor. Otherwise, if there is a random collection of pixels, try replacing the Arduino.
+
+Modifications to Examples:
+* Remove code which calls a function attempting to define an "identifier" (ex: "uint16_t identifier = tft.readID();" )
+  This code still does not flow through the library for the Nano and returns 0. Instead set identifier to "0x8357" when working
+  with the Adafruit TFT LCD 3.5" Breakout Board.
+* In setup(), after calling Serial.begin(9600), make sure to wait for until it has began with a statement like: while(!Serial);
+
